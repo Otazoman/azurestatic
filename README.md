@@ -20,7 +20,7 @@ ARM application command for DNS registration command
 
 $ az deployment group create \
   --name dnstohonokaitk \
-  --resource-group lb_tohonokai_test \
+  --resource-group yourResourceGroup \
   --template-file dns_template.json \
   --parameters zoneName=yourdomain recordName=_Publishedzerossl.comodoca.com  
   
